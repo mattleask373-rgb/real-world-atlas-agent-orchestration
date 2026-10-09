@@ -58,3 +58,35 @@ A public repository or skill is a candidate resource, not an approved dependency
 
 ## Acceptance test
 Adopt only if a bounded test demonstrates improved quality, reduced cycle time or increased business value after accounting for setup, model/API cost, review and maintenance.
+
+
+## Additional landscape candidates (research only)
+
+These entries are candidates from the holistic landscape review. They are not installed, security-reviewed or production-approved. Use the complete prioritization, acceptance tests and rollout order in [the open-source gems landscape](../research/open-source-gems-landscape.md).
+
+| Resource | Capability | Initial priority | Required adoption check |
+|---|---|---|---|
+| [Gitleaks](https://github.com/gitleaks/gitleaks) | Secret scanning | P0: evaluate report-only | Scan locally; protect findings; rotate any confirmed exposed credential |
+| [Renovate](https://github.com/renovatebot/renovate) | Dependency-update PRs | P0: evaluate one repo | Conservative update config, CI validation, no autonomous merge |
+| [Playwright](https://github.com/microsoft/playwright) | Browser end-to-end testing | P0: use existing suite first | Add only missing critical-journey coverage; synthetic/test accounts |
+| [axe-core](https://github.com/dequelabs/axe-core) | Automated accessibility checks | P0: targeted audit | Pair automated output with manual keyboard/accessibility review |
+| [SiteOne Crawler](https://github.com/janreges/siteone-crawler) | Technical SEO/site crawl | P1: test on owned site | Check scope, rate, crawl output and false positives |
+| [Unlighthouse](https://github.com/harlan-zw/unlighthouse) | Site-wide Lighthouse audits | P1: alternative to SiteOne for a different need | Avoid overlapping audits without additional signal |
+| [SerpBear](https://github.com/towfiqi/serpbear) | Rank tracking | P1: small query sample | Confirm SERP data provider, cost, geography and data handling |
+| [Umami](https://github.com/umami-software/umami) | Lightweight web analytics | P1: only if current analytics are insufficient | Privacy/consent, hosting, retention and migration review |
+| [Last30Days skill](https://github.com/mvanhorn/last30days-skill) | Recent public-signal research | P1: compare against manual sample | Verify source access, terms, credentials, reproducibility and costs |
+| [Crawl4AI](https://github.com/unclecode/crawl4ai) | Structured web extraction | P1: public pages only | Follow site terms, robots guidance, rate limits and privacy/copyright rules |
+| [Meilisearch](https://github.com/meilisearch/meilisearch) | Full-text/hybrid search | P1: benchmark only | Verify Community/Enterprise licence boundaries and benchmark against current search |
+| [Trigger.dev](https://github.com/triggerdotdev/trigger.dev) | Durable TypeScript background jobs | P1: one non-critical workflow | Compare hosted/self-hosted costs, licence, retries, logs and approval controls |
+| [Activepieces](https://github.com/activepieces/activepieces) | Visual integration automation | P1: alternative to Trigger.dev | MIT community core; verify commercial-edition boundaries and permissions |
+| [Codebase Memory MCP](https://github.com/DeusData/codebase-memory-mcp) | Codebase graph/context | P2: disposable clone only | Review install scripts and agent configuration writes |
+| [LangGraph](https://github.com/langchain-ai/langgraph) | Stateful agent orchestration | P2: architecture evaluation only | Adopt only if current workflow needs durable state/checkpoints/approval it lacks |
+| [OpenTelemetry JS](https://github.com/open-telemetry/opentelemetry-js) | Workflow tracing/metrics | P2: only if observability is fragmented | Keep instrumentation proportional to a real debugging need |
+| [Typesense](https://github.com/typesense/typesense) | Search and faceted discovery | P2: compare with Meilisearch, not alongside by default | Review licence, operations, indexing and representative relevance tests |
+| [Twenty CRM](https://github.com/twentyhq/twenty) | CRM/pipeline | P2: compare with Frappe CRM | Use synthetic data; check current licence, export and operational burden |
+| [Frappe CRM](https://github.com/frappe/crm) | CRM/pipeline alternative | P2: compare with Twenty | Select at most one CRM and only when follow-up is a real bottleneck |
+| [listmonk](https://github.com/knadh/listmonk) | Opt-in newsletter infrastructure | P2: defer until audience exists | AGPL-3.0; consent, suppression, deliverability, hosting and provider cost |
+| [OpenCut](https://github.com/OpenCut-app/OpenCut) | Video editing | Watchlist | Verify maturity and output workflow before production content use |
+| [OpenMontage](https://github.com/calesthio/OpenMontage) | Agent-assisted video creation | Watchlist | AGPL-3.0 review plus media/voice/music rights and cost |
+
+**Do not turn this registry into a shopping list.** First-wave focus is repository hygiene, baseline measurement, one technical SEO audit, one research workflow and one paid customer experiment. For all candidates, check upstream license and latest release at the time of use.
