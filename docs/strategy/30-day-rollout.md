@@ -107,3 +107,32 @@ Use `docs/research/open-source-gems-landscape.md` as the prioritized candidate m
 - **90 days:** automate a proven workflow or test a recurring product only when repeated paid demand and maintainable unit economics justify the added complexity.
 
 The candidate shortlist and day-by-day acceptance criteria are maintained in [the open-source gems landscape](research/open-source-gems-landscape.md). The shortlist is not exhaustive, and the existing Next New Thing AI transcript/description sweep remains incomplete.
+
+
+## Connected business portfolio and core-network feedback loop
+
+The detailed plan lives in [Business Portfolio and Feedback-Loop Strategy](business-portfolio-feedback-loop.md). Use it as the commercial architecture for the next phase.
+
+**Portfolio principle:** one core network, one near-term cash engine, and conditional adjacent offers—not multiple disconnected startups.
+
+1. **Near-term cash:** fixed-scope local visibility/enquiry pilot; use existing analytics plus one verified audit workflow.
+2. **Recurring service:** monthly visibility/conversion maintenance only after a pilot demonstrates a real recurring job and measurable value.
+3. **Network monetization:** accurate/verified profiles and transparent sponsorship or enquiry partnerships, with explicit trust, attribution and privacy controls.
+4. **Reusable assets:** checklists, reports and implementation packs only after repeated paid delivery.
+5. **Workflow implementation:** one narrow business workflow, manually delivered first, then automated only when stable and economically beneficial.
+6. **Micro-SaaS:** build only after repeated independent buyers pay for the same recurring problem.
+
+### New candidate research leads
+- [WAT local-SEO pipeline](https://github.com/Carbide-and-Dirt/wat-seo-pipeline): strongest fit to investigate for audits and recurring local reports; API costs and prospecting compliance must be reviewed.
+- [LaunchDesk](https://github.com/imperator-clawdius/launchdesk): possible inspiration for offer/lead experiment tracking; small early project, not an approved dependency.
+- [All-In-One Free SEO Tool](https://github.com/IamRamgarhia/All-In-One-Free-SEO-Tool): feature-rich SEO candidate; early project and no security policy detected in the source snapshot; disposable environment only pending review.
+- [Creator CRM](https://github.com/alongot/creator-crm): defer until creator/partner operations become a real bottleneck; inspect authentication and personal-data handling.
+- Keep existing candidates SiteOne/Unlighthouse, OpenSEO, and one eventual CRM/automation option on the research backlog.
+
+### First 14-day commercial validation
+Choose one local-business segment and one problem; gather 20 sourced pain signals across at least three communities/sites; conduct 5–10 buyer conversations; offer a fixed-scope paid pilot before building new software. Track cash collected, hours, direct/API costs, margin and customer outcome. These are target activities, not claimed completed work.
+
+### Core-network feedback loop
+Research signals → service delivery → verified local information and user insights → more useful network discovery → qualified enquiries and participation → transparent revenue → reinvestment in data quality and product → repeatable playbooks/software. Paid placement must never masquerade as independent recommendation, and growth must not depend on low-quality SEO pages or unconsented data resale.
+
+All new repos are research-only. Review current license, releases, security policy, install behavior, permissions, outbound data, provider pricing and rollback before trial. Read the portfolio strategy for UK marketing/privacy guardrails and stop/go criteria.
