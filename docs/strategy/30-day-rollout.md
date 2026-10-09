@@ -77,3 +77,33 @@ Use `docs/strategy/open-source-repo-to-income-engine.md` as the operating subsec
 ## Reddit opportunity research
 
 See `docs/research/reddit-opportunity-research.md` for public forum signals, candidate repositories, income hypotheses, validation experiments and guardrails. Treat Reddit anecdotes as leads rather than verified revenue evidence; validate customer pain and willingness to pay before building.
+
+
+## Holistic open-source capability landscape
+
+Use `docs/research/open-source-gems-landscape.md` as the prioritized candidate map and integration plan. It is curated desk research, not a claim of exhaustive GitHub coverage or production approval.
+
+**Operating principle:** optimize for customer outcomes and system leverage, not the number of repos or agents. Research → evidence → paid validation → reviewed delivery → measured economics → selective automation.
+
+### First-wave priorities
+1. **Protect the factory:** evaluate Gitleaks in report-only mode, preserve secret-handling rules, and consider Renovate for reviewable dependency PRs. Any confirmed exposed secret requires private handling and credential rotation.
+2. **Measure the current system:** baseline the existing analytics, build/test pipeline, key product journey, SEO and errors before introducing another platform.
+3. **Find verified technical issues:** run one of SiteOne Crawler or Unlighthouse against an owned/authorized site; add Playwright or axe-core only where the existing test suite has a real gap.
+4. **Improve market research:** trial Last30Days against a manually researched sample; store source URLs, dates, evidence, counterexamples and confidence. Follow platform terms and privacy requirements.
+5. **Test one commercial outcome:** deliver a fixed-scope local-business visibility/enquiry pilot manually first; track customer outcome, hours, direct costs, collected cash and margin.
+6. **Automate only a proven bottleneck:** compare existing capabilities with Trigger.dev and Activepieces for one internal workflow. Choose one, and only if retries, logs, limits and human approval improve the baseline.
+
+### Architecture and portfolio guardrails
+- No candidate is automatically approved by appearing in the research document. Verify canonical upstream, licence/edition, current activity, install behavior, permissions, outbound data, provider costs and rollback at adoption time.
+- Prefer existing product capabilities and existing CI. Do not introduce overlapping analytics, search, CRM, billing, automation, email or support platforms without an architecture decision and a measured gap.
+- Do not replace the canonical supply/discovery engine with a second engine. Search-engine candidates such as Meilisearch and Typesense remain benchmark-only until relevance/latency evidence justifies a change.
+- Keep customer and production data out of experimental agents; use synthetic data and disposable clones. No autonomous merges, public publishing, bulk outreach, spending or irreversible customer actions.
+- Do not build a micro-SaaS from trend signals alone. Require repeated customer pain and paid concierge validation before committing to recurring product development.
+- Score candidates by business leverage, bottleneck fit, evidence quality, time-to-value, reuse, operating cost and risk. Hard security, privacy, license or rollback failures override any numeric score.
+
+### Scale gates
+- **30 days:** reliable baselines, one research workflow, one technical SEO report, one paid pilot attempt and an evidence-backed continue/stop decision.
+- **60 days:** repeat the service only if customer outcomes and positive delivery economics are demonstrated; choose CRM/email/support tooling only when a measured operational bottleneck exists.
+- **90 days:** automate a proven workflow or test a recurring product only when repeated paid demand and maintainable unit economics justify the added complexity.
+
+The candidate shortlist and day-by-day acceptance criteria are maintained in [the open-source gems landscape](research/open-source-gems-landscape.md). The shortlist is not exhaustive, and the existing Next New Thing AI transcript/description sweep remains incomplete.
