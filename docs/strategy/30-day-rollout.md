@@ -53,6 +53,20 @@ Build a repeatable AI-assisted software and growth operation that improves Real 
 - **Audio/guide services:** optional, permissioned narration/transcription/translation where delivery economics work.
 - **Future recurring product:** subscription tooling only after repeated use and willingness to pay are demonstrated.
 
+## Open-source repository → agent capability → income engine
+
+Use `docs/strategy/open-source-repo-to-income-engine.md` as the operating subsection for converting repository discoveries into tested capabilities and revenue experiments.
+
+1. **Inventory the evidence.** For each video, record title, date, canonical URL, whether its full description was inspected, all repository links, and whether research used a full transcript or only a third-party summary. Do not mark the channel fully reviewed until the accessible video list and descriptions have been checked systematically.
+2. **Vet candidates.** Verify the canonical upstream, licence and commercial terms, maintenance/security signals, install behavior, permissions, data flows, external fees, hosting and rollback. A video mention is a research lead, not an endorsement.
+3. **Run a bounded trial.** Use a disposable clone or synthetic data, define a baseline and acceptance criteria, record version/cost/time/quality, and document removal steps.
+4. **Connect capability to a customer outcome.** Start with evidence-led SEO/visibility audits, enquiry/conversion improvements and scoped workflow implementation. Consider digital products or recurring software only after buyer demand is demonstrated.
+5. **Measure economics.** Track qualified leads, proposals, paid conversions, cash collected, delivery hours, direct/API costs, gross margin, repeat use, customer outcomes and incidents. Stars, generated content volume and agent count are not success metrics.
+6. **Keep the stack minimal.** Check existing product capabilities before adding analytics, forms, CRM, support, booking, billing or email tools. Introduce a new system only to close a demonstrated gap.
+7. **Keep human review.** Production changes, public publishing, customer contact campaigns, financial decisions and permission changes require explicit review.
+
+**Initial trials:** baseline the product and analytics; compare OpenSEO against first-party data for one authorized site; test Last30Days or manual research on one customer question; evaluate a codebase-memory/planning skill on a disposable clone; then offer a tightly scoped local-business pilot and measure paid conversion and margin. Expand only workflows that beat their baseline.
+
 ## Decision rules
 - Prioritize paid evidence and user outcomes over vanity metrics.
 - Do not run paid acquisition until conversion tracking and unit economics are credible.
