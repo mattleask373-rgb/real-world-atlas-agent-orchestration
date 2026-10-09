@@ -72,3 +72,8 @@ Use `docs/strategy/open-source-repo-to-income-engine.md` as the operating subsec
 - Do not run paid acquisition until conversion tracking and unit economics are credible.
 - Do not promise rankings, leads, revenue or autonomous reliability.
 - Stop experiments that lack a clear owner, measurable outcome, budget or review date.
+
+
+## Reddit opportunity research
+
+See `docs/research/reddit-opportunity-research.md` for public forum signals, candidate repositories, income hypotheses, validation experiments and guardrails. Treat Reddit anecdotes as leads rather than verified revenue evidence; validate customer pain and willingness to pay before building.
