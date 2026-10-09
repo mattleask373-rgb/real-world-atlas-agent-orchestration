@@ -55,7 +55,7 @@ Build a repeatable AI-assisted software and growth operation that improves Real 
 
 ## Open-source repository → agent capability → income engine
 
-Use `docs/strategy/open-source-repo-to-income-engine.md` as the operating subsection for converting repository discoveries into tested capabilities and revenue experiments.
+Use `docs/strategy/open-source-repo-to-income-engine.md` as the operating subsection for converting repository discoveries into tested capabilities and revenue experiments. Use `docs/research/transcript-repo-candidates.md` as the transcript-derived candidate backlog; the original channel-description sweep is still incomplete.
 
 1. **Inventory the evidence.** For each video, record title, date, canonical URL, whether its full description was inspected, all repository links, and whether research used a full transcript or only a third-party summary. Do not mark the channel fully reviewed until the accessible video list and descriptions have been checked systematically.
 2. **Vet candidates.** Verify the canonical upstream, licence and commercial terms, maintenance/security signals, install behavior, permissions, data flows, external fees, hosting and rollback. A video mention is a research lead, not an endorsement.
