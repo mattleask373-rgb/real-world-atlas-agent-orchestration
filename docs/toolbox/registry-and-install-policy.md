@@ -90,3 +90,22 @@ These entries are candidates from the holistic landscape review. They are not in
 | [OpenMontage](https://github.com/calesthio/OpenMontage) | Agent-assisted video creation | Watchlist | AGPL-3.0 review plus media/voice/music rights and cost |
 
 **Do not turn this registry into a shopping list.** First-wave focus is repository hygiene, baseline measurement, one technical SEO audit, one research workflow and one paid customer experiment. For all candidates, check upstream license and latest release at the time of use.
+
+
+## Business portfolio and local-growth research candidates
+
+These additional repositories are research leads connected to the [business portfolio strategy](../strategy/business-portfolio-feedback-loop.md). They are not approved, installed or production-ready by default.
+
+| Repository | Potential role | Initial decision |
+|---|---|---|
+| [WAT SEO pipeline](https://github.com/Carbide-and-Dirt/wat-seo-pipeline) | Local competitive audits, prospect research and recurring geo-grid reporting | **A1 trial candidate**: inspect source/license, API costs, budget caps, data handling and outreach steps; one-target dry-run only |
+| [LaunchDesk](https://github.com/imperator-clawdius/launchdesk) | Offer hypothesis and lead-stage cockpit | **A2 workflow inspiration**: compare with existing task/experiment docs first; small early project, don't add as dependency without demonstrated time savings |
+| [All-In-One Free SEO Tool](https://github.com/IamRamgarhia/All-In-One-Free-SEO-Tool) | Broad local SEO/reporting toolkit | **A3 sandbox-only**: early project; no security policy detected at research time; inspect dependencies, API use and autonomous-fix behavior; no production credentials |
+| [Creator CRM](https://github.com/alongot/creator-crm) | Creator/partner relationship tracking | **Defer**: simple shared-password gate and creator contact data require security/auth/privacy review; only relevant if partner pipeline becomes a bottleneck |
+| [OpenSEO](https://github.com/every-app/open-seo) | SEO research and workflows | Compare against one independent audit; check current project maturity and all data-provider costs |
+| [SiteOne Crawler](https://github.com/janreges/siteone-crawler) | Technical site crawl | Use on owned/authorized sites; compare to Unlighthouse rather than duplicating tools |
+| [Unlighthouse](https://github.com/harlan-zw/unlighthouse) | Site-wide Lighthouse/performance audit | Select when its output answers a specific gap not already covered |
+| [Twenty CRM](https://github.com/twentyhq/twenty) **or** [Frappe CRM](https://github.com/frappe/crm) | Pipeline and follow-up | Choose one only if a lightweight tracker is no longer sufficient |
+| [Activepieces](https://github.com/activepieces/activepieces) **or** [Trigger.dev](https://github.com/triggerdotdev/trigger.dev) | Workflow automation | Choose one only after manual workflow proves repeatable and a bottleneck is measured |
+
+The portfolio strategy contains the complete business use cases, scoring, 14/30/60/90-day gates, UK outreach safeguards and the shared economics scorecard. Do not deploy the WAT pipeline for broad lead collection until legal basis, provider terms, cost ceilings and contact rules have been reviewed. UK ICO guidance states that publicly available contact details do not automatically authorize marketing, and rules differ for corporate subscribers versus sole traders/ordinary partnerships: https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/
